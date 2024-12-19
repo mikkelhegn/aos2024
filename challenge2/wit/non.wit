@@ -1,0 +1,9 @@
+package advent-of-spin:challenge-two;
+
+interface non {
+    get-naughty-or-nice-score: func(num: u8) -> u8;
+}
+
+world elves {
+    export non;
+}
